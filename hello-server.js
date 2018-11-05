@@ -1,6 +1,7 @@
 const http = require('http');
 
 const svr = http.createServer(handler);
+
 svr.listen(3000);
 
 function handler (req, res) {
